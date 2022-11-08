@@ -2,6 +2,14 @@
   background-color: #2C3D50;
 }
 
+.bg-site{
+    background-color: #1CBB9D;
+}
+
+.w-90{
+    width:90%;
+}
+
 nav a{
     color:#fff !important;
     text-transform: uppercase;
@@ -30,11 +38,40 @@ nav a{
     color:#1CBB9D !important;
 }
 
+.starIcon::before,.starIcon::after{
+    content:'';
+    background-color: #fff;
+    height:5px;
+    width:110px;
+    position: absolute;
+    border-radius:.2rem;
+    top:25%;
+}
+.starIcon::before{
+   left:50px;
+}
 
+.starIcon::after{
+    right:50px;
+}
+
+
+/* @media screen and (min-width:768px) {
+
+    .starIcon::before,.starIcon::after{
+        width:150px;
+    }
+
+} */
 
 @media screen and (min-width:992px) {
     .parent{
         width:80%;
     }
+
+    /* .starIcon::before,.starIcon::after{
+        width:170px;
+       
+    } */
 
 }
