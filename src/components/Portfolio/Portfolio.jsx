@@ -6,6 +6,7 @@ export  class Portfolio extends Component {
   render() {
     return (
         <>
+
         <div className="parent mx-auto my-5 text-center">
          <div className="container-fluid">
            <h2 className='fw-bolder fs-1 mb-3'>Portfolio</h2>
