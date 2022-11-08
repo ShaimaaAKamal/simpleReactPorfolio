@@ -1,5 +1,6 @@
 .bg-nav{
   background-color: #2C3D50;
+  z-index:3333;
 }
 
 .bg-site{
@@ -9,6 +10,7 @@
 .w-90{
     width:90%;
 }
+
 
 nav a{
     color:#fff !important;
@@ -55,6 +57,19 @@ nav a{
     right:50px;
 }
 
+.sectionStar::before,.sectionStar::after{
+    background-color: #2C3D50;
+}
+.sectionStar i {
+    color:#2C3D50 !important;
+}
+
+.portfolioCard{
+    opacity:0;
+}
+.portfolioCardParent:hover .portfolioCard{
+    opacity:.8;
+}
 
 /* @media screen and (min-width:768px) {
 
