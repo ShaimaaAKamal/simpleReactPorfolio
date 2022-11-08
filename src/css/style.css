@@ -7,6 +7,10 @@
     background-color: #1CBB9D;
 }
 
+.text-site{
+    color: #1CBB9D;
+}
+
 .w-90{
     width:90%;
 }
@@ -71,19 +75,25 @@ nav a{
     opacity:.8;
 }
 
-/* @media screen and (min-width:768px) {
+.w-65{
+    width:65%;
+}
+.slideCard{
+    z-index:9999;
+    overflow: scroll;
+    height: 100vh;
+}
 
-    .starIcon::before,.starIcon::after{
-        width:150px;
-    }
 
-} */
 
 @media screen and (min-width:992px) {
     .parent{
         width:80%;
     }
 
+    .slideWidth{
+        width:70%;
+    }
     /* .starIcon::before,.starIcon::after{
         width:170px;
        

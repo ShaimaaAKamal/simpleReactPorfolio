@@ -5,7 +5,7 @@ export  class Home extends Component {
         <>
         <div className='w-100 vh-100 bg-site d-flex align-items-center justify-content-center'>
            <div className='text-center'>
-                <img src="http://routeegypt.com/start-react/assets/img/avataaars.svg" alt="avatar Photo" className='w-90' />
+                <img src="http://routeegypt.com/start-react/assets/img/avataaars.svg" alt="avatar Photo" className='w-50' />
                 <h1 className='text-uppercase text-white fw-bolder my-3 display-2'>Start react</h1>
                 <span className='starIcon position-relative'><i className="fa-solid fa-star text-white fa-2x"></i></span>
                 <div className='text-white mt-3 fs-4'>
