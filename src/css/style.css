@@ -1,0 +1,40 @@
+.bg-nav{
+  background-color: #2C3D50;
+}
+
+nav a{
+    color:#fff !important;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+.nav-link,.menuIcon{
+    padding:1rem 1.2rem !important;
+    display: inline-block;
+}
+.menuIcon{
+    padding:.5rem !important;
+    display: inline-block;
+}
+
+.menuIcon span{
+    margin-bottom:2px;
+    display: inline-block;
+}
+.nav-link.active ,.menuIcon{
+    background-color: #1CBB9D;
+    border-radius: .5rem;
+}
+
+.nav-link:hover{
+    color:#1CBB9D !important;
+}
+
+
+
+@media screen and (min-width:992px) {
+    .parent{
+        width:80%;
+    }
+
+}
