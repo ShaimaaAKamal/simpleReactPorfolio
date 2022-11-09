@@ -105,6 +105,18 @@ nav a{
     border-bottom:.5px solid #ccc;
 }
 
+.label{
+    transform: translateY(110%);
+    transition:transform 1s;
+    opacity: 0;
+}
+
+/* .borderBottom:hover .label{
+    transform: translateY(0%);
+    opacity: 1;
+    display: inline-block;
+} */
+
 @media screen and (min-width:992px) {
     .parent{
         width:80%;

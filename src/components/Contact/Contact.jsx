@@ -10,20 +10,20 @@ export default class Contact extends Component {
            <span className='starIcon position-relative sectionStar'><i className="fa-solid fa-star text-white fa-2x"></i></span>
            <div className='contactWidth mx-auto my-5'>
            <div className="my-3 borderBottom py-4 text-start">
-                <small className='text-site mb-3 px-2 ms-1 d-none'>Name</small>
+                <small className='text-site px-2 ms-1 label'>Name</small>
                 <input type="text" className="form-control" id="name" placeholder="Name"/>
             </div>
             <div className="my-3 borderBottom py-4 text-start">
-                <small className='text-site mb-3 px-2 d-none ms-1'>Email Address</small>
+                <small className='text-site  px-2 label ms-1'>Email Address</small>
                 <input type="email" className="form-control" id="email" placeholder="Email Address"/>
                 <li className='text-danger mt-2 ps-5 ms-1 d-none mb-0'>Not a valid Email Address</li>
             </div>
             <div className="my-3 borderBottom py-4 text-start">
-                <small className='text-site mb-3 px-2 ms-1 d-none'>Phone Number</small>
+                <small className='text-site  px-2 ms-1 label'>Phone Number</small>
                 <input type="text" className="form-control" id="phone" placeholder="Phone Number"/>
             </div>
             <div className="my-3 borderBottom py-4 text-start">
-                <small className='text-site mb-3 px-2 ms-1 d-none'>Message</small>
+                <small className='text-site  px-2 ms-1 label'>Message</small>
                 <textarea className="form-control" id="Message" placeholder="Message" rows='8'/>
             </div>
             <div className='text-start my-4'>
