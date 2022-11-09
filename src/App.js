@@ -4,6 +4,7 @@ import { Home } from "./components/Home/home";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from './components/Footer/Footer';
 class App extends Component 
   {
     componentDidMount(){
@@ -47,6 +48,7 @@ class App extends Component
           <Portfolio/>
           <About/>
           <Contact/>
+          <Footer/>
         </div>
       );
     }
