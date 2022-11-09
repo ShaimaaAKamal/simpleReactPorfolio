@@ -1,22 +1,6 @@
 import React, { Component } from 'react'
 
 export default class PortfolioSlide extends Component {
-   componentDidMount(){
-    const closeIcons=document.querySelectorAll('.closeIcon');
-    const closeButtons=document.querySelectorAll('.closeButton');
-
-    const slideCards=document.querySelectorAll('.slideCard');
-    closeIcons.forEach((icon,index) => {
-        icon.addEventListener('click',function(){
-            slideCards[index].classList.add('d-none');
-        })
-    })
-    closeButtons.forEach((btn,index) => {
-        btn.addEventListener('click',function(){
-            slideCards[index].classList.add('d-none');
-        })
-    })
-   }
   render() {
     return (
         <>
@@ -26,7 +10,7 @@ export default class PortfolioSlide extends Component {
                          <i className="fa-regular fa-circle-xmark fa-2x closeIcon" ></i>
                     </div>
                     <div className="container-fluid">
-                        <h2 className='fw-bolder fs-1 mb-3 text-uppercase'>img name</h2>
+                        <h2 className='fw-bolder fs-1 mb-3 text-uppercase'>{this.props.name}</h2>
                         <span className='starIcon position-relative sectionStar'><i className="fa-solid fa-star text-white fa-2x"></i></span>
                         <div className='text-center my-5'>
                             <img src={this.props.img} alt="" className='w-65 rounded-3' />
