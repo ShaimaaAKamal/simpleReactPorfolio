@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
         <>
-                <div className='bg-site'>
+                <div className='bg-site' id='About'>
                     <div className="parent mx-auto py-5 text-center">
                          <h2 className='fw-bolder text-white fs-1 mb-3'>About</h2>
                         <span className='starIcon position-relative starIcon'><i className="fa-solid fa-star text-white fa-2x"></i></span>

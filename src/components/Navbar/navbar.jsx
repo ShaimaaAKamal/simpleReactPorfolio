@@ -4,7 +4,7 @@ export  class Navbar extends Component {
   render() {
     return (
         <>
-        <div className='bg-nav position-fixed top-0 w-100 '>
+        <div className='bg-nav position-fixed top-0 w-100 ' id='nav'>
          <div className="parent mx-auto">
          <nav className="navbar navbar-expand-lg ">
            <div className="container">
