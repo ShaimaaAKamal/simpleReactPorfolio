@@ -15,6 +15,11 @@
     width:90%;
 }
 
+.py-6{
+    padding-top:2.5rem;
+    padding-bottom:2.5rem
+}
+
 
 nav a{
     color:#fff !important;
@@ -42,6 +47,9 @@ nav a{
 
 .nav-link:hover{
     color:#1CBB9D !important;
+}
+.nav-link.active:hover{
+    color:#fff !important;
 }
 
 .starIcon::before,.starIcon::after{

@@ -11,9 +11,16 @@ class App extends Component
       const Portfolio=document.querySelector('#Portfolio');
       const About=document.querySelector('#About')
       const Contact=document.querySelector('#Contact')
-    //  console.log(About.offsetTop,Contact.offsetTop,Portfolio.offsetTop)
+    navLinks.forEach((link,index)=>{
+      link.addEventListener('click',function(e){
+        navLinks.forEach((inSidelink,Insideindex) => {
+          (index === Insideindex)?inSidelink.classList.add('active'):inSidelink.classList.remove('active');})
+      })
+    })
     window.addEventListener('scroll',function(e){
-     const scrollVal=window.scrollY;
+     const scrollVal=Math.ceil(window.scrollY);
+     const nav=document.querySelector('.bg-nav');
+     (scrollVal >= Portfolio.offsetTop)? nav.classList.remove('py-3'): nav.classList.add('py-3');
     if(scrollVal >= Portfolio.offsetTop && scrollVal < About.offsetTop){
       navLinks.forEach((link,index) => {
         (index === 0)?link.classList.add('active'):link.classList.remove('active');})
@@ -29,8 +36,6 @@ class App extends Component
       navLinks.forEach((link,index) => {
        link.classList.remove('active');})
     }
-
-
     })
   
     }
