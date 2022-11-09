@@ -36,7 +36,7 @@ export  class Portfolio extends Component {
 
         <div className="parent mx-auto my-5 text-center" id='Portfolio'>
          <div className="container-fluid">
-           <h2 className='fw-bolder fs-1 mb-3'>Portfolio</h2>
+           <h2 className='fw-bolder fs-1 mb-3 text-uppercase'>Portfolio</h2>
            <span className='starIcon position-relative sectionStar'><i className="fa-solid fa-star text-white fa-2x"></i></span>
            <div className="row g-4 my-5">
 

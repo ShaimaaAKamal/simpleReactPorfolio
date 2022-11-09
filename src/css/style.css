@@ -85,7 +85,25 @@ nav a{
     margin-top:0px;
 }
 
+.contactWidth{
+    width:90%
+}
 
+.form-control{
+    border:0;
+}
+.form-control::placeholder{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.borderBottom{
+    border-bottom:.5px solid #ccc;
+}
 
 @media screen and (min-width:992px) {
     .parent{
@@ -95,9 +113,9 @@ nav a{
     .slideWidth{
         width:70%;
     }
-    /* .starIcon::before,.starIcon::after{
-        width:170px;
-       
-    } */
-
+   
+    .contactWidth{
+        width:60%
+    }
+    
 }
