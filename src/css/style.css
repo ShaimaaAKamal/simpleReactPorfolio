@@ -106,15 +106,21 @@ nav a{
 }
 
 .label{
-    transform: translateY(110%);
+    transform: translateY(120%);
     transition:transform 1s;
     opacity: 0;
 }
 
+#sendBtn{
+    opacity: .8;
+}
+
+#sendBtn:hover{
+    opacity: 1;
+}
 /* .borderBottom:hover .label{
     transform: translateY(0%);
     opacity: 1;
-    display: inline-block;
 } */
 
 @media screen and (min-width:992px) {
