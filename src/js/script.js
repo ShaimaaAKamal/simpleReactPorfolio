@@ -6,11 +6,3 @@ function importAll(r) {
   export  const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
 
 
-//   window.addEventListener('load',function(){
-//     const plusIcons=document.querySelectorAll('.plusIcon');
-//     plusIcons.forEach(icon =>{
-//         icon.addEventListener('click',function(e){
-//             console.log('shaimaa');
-//         })
-//     })
-//   })
