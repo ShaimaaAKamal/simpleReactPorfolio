@@ -3,6 +3,10 @@
   z-index:3333;
 }
 
+.bg-bk{
+    background-color: #19242D;
+}
+
 .bg-site{
     background-color: #1CBB9D;
 }
@@ -126,10 +130,11 @@ nav a{
 #sendBtn:hover{
     opacity: 1;
 }
-/* .borderBottom:hover .label{
-    transform: translateY(0%);
-    opacity: 1;
-} */
+
+.socials i:hover {
+  background-color: #fff;
+  color:#2C3D50
+}
 
 @media screen and (min-width:992px) {
     .parent{
