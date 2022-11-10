@@ -6,7 +6,7 @@ export default class Footer extends Component {
         <>
         <div className='bg-nav py-5'>
            <div className='parent mx-auto pt-5'>
-              <div className="row">
+              <div className="row gy-5">
                 <div className="col-lg-4">
                   <div className='text-white text-center'>
                     <h3 className=' mb-4'>LOCATION</h3>

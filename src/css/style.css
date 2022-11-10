@@ -1,3 +1,6 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 .bg-nav{
   background-color: #2C3D50;
   z-index:3333;

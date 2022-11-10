@@ -25,9 +25,8 @@ class App extends Component
       const Contact=document.querySelector('#Contact')
       window.addEventListener('scroll',function(){
         const scrollVal=Math.ceil(window.scrollY);
-        console.log(scrollVal);
         const nav=document.querySelector('.bg-nav');
-        (scrollVal >= Portfolio.offsetTop)? nav.classList.remove('py-3'): nav.classList.add('py-3');
+        (scrollVal >= 100)? nav.classList.remove('py-3'): nav.classList.add('py-3');
        if(scrollVal >= Portfolio.offsetTop && scrollVal < About.offsetTop){
          self.activeLink(0);
        }
